@@ -1,0 +1,83 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+}
+
+nav{
+    position: absolute;
+    z-index: 2;
+    height: 80px;
+    width: 100%;
+    padding: 0 5%;
+}
+
+nav img{
+
+    width: 170px;
+    
+}
+
+#background{
+    position: absolute;
+    top: 0;
+    height: 90vh;
+    text-align: center;
+    background: url("img/HU-hu-20220307-popsignuptwoweeks-perspective_alpha_website_large.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#text{
+
+    position: relative;
+    top: 50%;
+    width: 40%;
+    transform: translateY(-50%);
+}
+
+#text h1{
+
+    font-size: 70px;
+    font-weight: 600;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#text h4{
+
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+#text p{
+
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.input{
+
+    
+    width: 500px;
+    height: 70px;
+    padding: 10px 0 10px 10px;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+}
+.button{
+
+    font-size: 1.7rem;
+    min-height: 70px;
+    color: #fff;
+    font-weight: 500;
+    background: #e50914;
+    border: 1px solid black;
+    width: 250px;
+    padding: 10px;
+    vertical-align: middle;
+    margin-left: -8px;
+    border-radius: 2px;
+}
